@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class PrimeMembers {
-
     /**
      * Check whether giver number is prime or not.
      * @param number
@@ -21,6 +20,10 @@ public class PrimeMembers {
         }
         return flag;
     }
+
+    /**
+     * This is test case method to verrify primemember of method {@link PrimeMembers#isPrime(int)}
+     */
     @Test
     public void primeNumberTest(){
        Assert.assertTrue(isPrime(56));
