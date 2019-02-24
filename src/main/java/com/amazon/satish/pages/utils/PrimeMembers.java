@@ -3,7 +3,7 @@ package com.amazon.satish.pages.utils;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class PrimeMember {
+public class PrimeMembers {
     /**
      * Check whether giver number is prime or not.
      * @param number
